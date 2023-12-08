@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const pathname = usePathname()
+  // this line from #1
   return (
     <div className='m-auto  w-[80%] py-4 font-semibold'>
        <div className='flex gap-4'>
