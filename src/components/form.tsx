@@ -16,6 +16,7 @@ type Form = {
 export default function FormItem(props: Form) {
   const { name, textArea, label, required, type, hidden, onClick, ...res } = props
   // this line from #1'branch
+  // this line from #1/2 
   return (
     <Form.Item
       label={label}
